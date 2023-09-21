@@ -1,0 +1,574 @@
+//1. Dado a=3 y b=7, encuentra el valor de y = 2 * a + b - a mod 3.
+// INICIO DE LA FUNCION 
+Funcion  expreciones_matematicas_ej1_AROCA
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 1"
+	//DEFINIR EL NOMBRE DE LAS VARIABLES 
+	Definir a, b Como Entero
+	// "a" sera igual a 3
+	a=3
+	// ESCRIBIR LO QUE VALE "a"
+	Escribir "a=" a
+	// "b" sera igual a 7
+	b=7
+	// ESCRIBIR LO QUE VALE "b"
+	Escribir "B=" b
+	// DEFINIMOS X COMO REAL 
+	Definir x Como Real
+	// FORMULA PARA HACER EL PROCESO DE X
+	x=2 * a + b - a mod 3 
+	// ESCRIBIR EL RESULTADO DE X QUE SE DA AL RESOLVER EL EJERCICIO
+	Escribir " y=", "2 * ", a,"+", b,"-", a, "mod", "3", "=", x,;
+	
+	// FIN DE FUNCION 
+FinFuncion
+
+//2 Si a=10 y b=4, calcula el valor de z = a * b + 3 mod a + b
+// INICIO DE LA FUNCION 
+Funcion expreciones_matematicas_ej2_AROCA
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 2"
+	// DEFINIR EL NOMBRE DE LAS VARIABLES 
+	Definir a, b Como Entero
+	// "a" sera igual a 10
+	a=10
+	// ESCRIBIR LO QUE VALE "a"
+	Escribir "a" a
+	// "b" sera igual a 4
+	b=4 
+	// ESCRIBIR LO QUE VALE "b"
+	Escribir "b" b
+	// DEFINIMOS Z COMO REAL 
+	Definir z Como Real
+	// FORMULA PARA HACER EL PROCESO DE Z
+	z = a * b + 3 mod a + b
+	// ESCRIBIR EL RESULTADO DE Z QUE SE DA AL RESOLVER EL EJERCICIO
+	Escribir "z=", a,"*", b, "+", 3, "mod", a,"+", b, "=", z,;
+	 // FIN DE LA FUNCION 
+FinFuncion
+//3. Con a=6 y b=2, determina el valor de w = a - b + 2 * a mod b.
+// INICIO DE LA FUNCION 
+Funcion expreciones_matematicas_ej3_AROCA
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 3"
+	// DEFINIR EL NOMBRE DE LAS VARIABLES 
+	Definir a, b Como Entero
+	// "a" sera igual a 6
+	a=6
+	// ESCRIBIR LO QUE VALE "a"
+	Escribir "a" a
+	// "B" sera igual a 2
+	b=2 
+	// ESCRIBIR LO QUE VALE "b"
+	escribir "b" b
+	// DEFINIMOS w COMO REAL 
+	definir w Como Real
+	// FORMULA PARA HACER EL PROCESO DE w
+	w = a - b + 2 * a mod b
+	// ESCRIBIR EL RESULTADO DE w QUE SE DA AL RESOLVER EL EJERCICIO
+	Escribir "w=", a,"-", b,"+", 2,"*", a,"mod", b,"=", w,;
+	// FIN DE LA FUNCION 
+FinFuncion
+//4. Para a=8 y b=5, encuentra el valor de v = 2 * b + a div 2 + 4 * b mod a
+// INICIO DE LA FUNCION 
+Funcion  expreciones_matematicas_ej4_AROCA
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 4"
+	// DEFINIR EL NOMBRE DE LAS VARIABLES 
+	Definir a, b Como Entero
+	// "a" sera igual a 8
+	a=8 
+	// ESCRIBIR LO QUE VALE "a"
+	Escribir "a" a
+	// "b" sera igual a 5
+	b=5
+	// ESCRIBIR LO QUE VALE "b"
+	Escribir "b" b
+	// DEFINIMOS v COMO REAL 
+	definir v Como Real
+	// FORMULA PARA HACER EL PROCESO DE v
+	v= 2 * b + a  / 2 + 4 * b mod a 
+	// ESCRIBIR EL RESULTADO DE v QUE SE DA AL RESOLVER EL EJERCICIO
+	Escribir "v=", 2,"*", b,"+", a,"/", 2,"+", 4,"*", b,"mod", a,"=", v,;
+	// FIN DE LA FUNCION 
+FinFuncion
+//5. Si a=12 y b=9, calcula el valor de u = b - a + 3 * a mod b.
+// INICIO DE LA FUNCION 
+Funcion expreciones_matematicas_ej5_AROCA
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 5"
+	// DEFINIR EL NOMBRE DE LAS VARIABLES 
+	Definir a, b Como Entero
+	// "a" sera igual a 12
+	a=12
+	// ESCRIBIR LO QUE VALE "a"
+	Escribir "a" a
+	// "b" sera igual a 9
+	b=9
+	// ESCRIBIR LO QUE VALE "b"
+	Escribir "b" b
+	// DEFINIMOS u COMO REAL 
+	Definir u Como Real
+	// FORMULA PARA HACER EL PROCESO DE u
+	u = b - a + 3 * a mod b
+	// ESCRIBIR EL RESULTADO DE u QUE SE DA AL RESOLVER EL EJERCICIO
+	Escribir "u=", b,"-", a,"+", 3,"*", a,"mod", b,"=", u,;
+	// FIN DE LA FUNCION 
+FinFuncion
+//6. (5 + 3 * 2) + 9 > 3 * 5 * 14 % 3
+// INICIO DE LA FUNCION 
+Funcion expreciones_matematicas_ej6_AROCA
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 6"
+	// DEDFINIR EL NOMBRE DE LA VARIABLE
+	Definir R Como Logico
+	// CON LA SIGUIENTE FORMULA BUSCAMOS QUE NOS DIGA SI ES VERDADERO O FALSO
+	R = (5 + 3 * 2) + 9 > 3 * 5 * 14 MOD 3
+	// ESCRIBIRA LA RESPUESTA 
+	Escribir "*** <<¡" , R, "!>> ***"
+    // FIN DE LA FUNCION
+FinFuncion
+
+//7. 2 *(4 ? 10 + 8)/2* 36 *(1/2)
+// INICIO DE LA FUNCION 
+Funcion  expreciones_matematicas_ej7_AROCA
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 7"
+	// DEFINIR EL NOMBRE DE LA VARIABLE
+	Definir R Como Entero
+	// BUSCAMOS EL RESULTADO DE "R" Y NOS LO DARA CON LA SIGUIENTE OPERACION 
+	R =  2 *(4 - 10 + 8)/2* 36 *(1/2)
+	// ESCRIBIR EL RESULTADO 
+	Escribir "*** <<! R=", R, "¡>> ***"
+	// FIN DE LA FUNCION 
+FinFuncion
+
+//8. 260 / 12 + 54 % 3 - 85 % 7
+// INICIO DE LA FUNCION 
+Funcion  expreciones_matematicas_ej8_AROCA
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+		Escribir "EJERCICIO 8"
+		// DEFINIR EL NOMBRE DE LA VARIABLE
+		Definir R Como Real
+		// BUSCAMOS EL RESULTADO DE "R" Y NOS LO DARA CON LA SIGUIENTE OPERACION 
+		R = 260 / 12 + 54 % 3 - 85 % 7
+		// ESCRIBIR EL RESULTADO DE R
+		Escribir "*** <<! R=" , R, "¡>> ***"
+		// FIN DE LA FUNCION 
+FinFuncion
+
+//9. (48 < 2 * 3) | | (2 * 7 < 12)
+// INICIO DE LA FUNCION 
+Funcion expreciones_matematicas_ej9_AROCA
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 9"
+	// DEFINIR EL NOMBRE DE LA VARIABLE
+	Definir R Como Logico
+	// // CON LA SIGUIENTE FORMULA BUSCAMOS QUE NOS DIGA SI ES VERDADERO O FALSO
+	R = (48 < 2 * 3) O (2 * 7 < 12)
+	// ESCRIBIR EL RESULTADO 
+	Escribir "*** <<!" , R, "¡>> ***"
+	// FIN DE LA FUNCION 	
+FinFuncion
+
+//10. ((8 > 2) | | (932 < 23) ) && 4 == 2
+// INICIO DE LA FUNCION 
+Funcion expreciones_matematicas_ej10_AROCA
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 10"
+	// DEFINIR EL NOMBRE DE LA VARIABLE
+	Definir R Como Logico
+	// CON LA SIGUIENTE FORMULA BUSCAMOS QUE NOS DIGA SI ES VERDADERO O FALSO
+	R =  ((8 > 2) O (932 < 23) ) & 4 == 2
+	// ESCRIBIR EL RESULTADO 
+	Escribir "*** <<!" , R, "¡>> ***"
+	// FIN DE LA FUNCION 
+FinFuncion
+
+//Suma de dos números: Escribe un programa que tome dos números como entrada y muestre su suma.
+//INICIO DE FUNCION 
+Funcion  algoritmos_secuenciales_ej11_AROCA
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 11"
+	// DEFINIR EL NOMBRE DE LA VARIABLE
+	Definir suma ,num1, num2 Como Entero
+	// ESCRBIR LOS VALORES num1 
+	Escribir "INGRESE EL PRIMER NUMERO"
+	//LEER num1
+	leer num1
+	// ESCRBIR LOS VALORES num2
+	Escribir "INGRESE EL SEGUNDO NUMERO"
+	// LEER num2
+	leer num2
+	//SUMAR LOS VALORES num1+num2 PARA OBTENER EL VALOR DE LA SUMA 
+	suma<-num1+num2
+	// ESCRIBIR EL RESULTADO 
+	Escribir "el resultado es " suma 
+	// FIN DE LA FUNCION 
+FinFuncion
+
+//12. Área de un triángulo: Pide al usuario que ingrese la base y la altura de un triángulo, luego calcula y muestra su área.
+// INICIO DE LA FUNCION 
+Funcion  algoritmos_secuenciales_ej12_AROCA
+	// DEFINIR EL NOMBRE DE LA VARIABLE
+	Definir Area Como Real
+	Definir Base Como Real
+	Definir ALtura Como Real 
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 12"
+	// ESCRBIR LOS VALORES DE Base Y ALtura 
+	Base=0 
+	ALtura =0 
+	// PIDO QUE INGRESE LOS VALORES DE Base
+	Escribir "INGRESE LOS VALORES DE Base"
+	leer Base
+	// PIDO QUE INGRESE LOS VALORES DE ALtura 
+	Escribir "INGRESE LOS VALORES DE ALtura "
+	leer ALtura 
+	// PARA OBTENER LOS VALORES AREA, MULTIPLICO BASE * ALTURA /2
+    Area = Base * ALtura  / 2
+	// ESCRIBIR EL RESULTADO 
+	Escribir " EL AREA DEL TRIANGULO ES  " Area
+	// FIN DE LA FUNCION 
+FinFuncion
+
+//13. Número par o impar: Solicita al usuario que ingrese un número e indica si es par o impar.
+// INICIO DE LA FUNCION 
+	FUNCION  algoritmos_secuenciales_ej13_AROCA
+		// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+		Escribir "EJERCICIO 13"
+		//PEDIMOS AL USUARIO QUE ESCRIBA SU NUMERO
+		Escribir "INGRESE NUMERO"
+		// LEER NUM
+		Leer num 
+		// SI EL NUMERO ES DIVIDIDO POR DOS Y NOS SALE MOD DE 2 ENTONCES ES PAR
+		si num mod 2=0 Entonces
+			// MOSTRAR RESULTADO SI ES PAR
+			Escribir "SU NUMERO ES PAR"
+			// SI EL NUMERO NO ES PAR ENTONCES NOS DIRA QUE ES IMPAR 
+		SiNo
+			// MOSTRAR RESULTADO SI ES IMPAR
+			Escribir "SU NUMERO ES IMPAR"
+			
+		FinSi
+		// FIN DE LA FUNCION 
+FinFuncion
+
+//14. Calculadora simple: Crea una calculadora que realice operaciones básicas como suma, resta, multiplicación y división, según la elección del usuario.
+// INICIO DE FUNCION 
+Funcion algoritmos_secuenciales_ej14_AROCA 
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 14"
+	//DEFINIR LOS NOMBRES DE LAS VARIABLES 
+	Definir num1, num2, res como real 
+	Definir operacion Como Caracter
+	//DEFINIR EL VALOR DE LAS VARIABLES 
+	num1=0 ; num2=0 ; res=0 ; operacion=""
+	//PEDIR AL USUARIO QUE EIJA LA OPERACION QUE QUIERE REALIZAR
+	Escribir "IGRESE LA OPERACION QUE QUIERE REALIZAR (+ , - . * , /)"
+	leer operacion 
+	//PEDIR AL USUARIO QUE ESCRIBA EL NUMERO 1
+	Escribir "ESCRIBA NUMERO 1" 
+	leer num1 
+	//PEDIR AL USUARIO QUE ESCRIBA EL NUMERO 2
+	Escribir "ESCRIBA NUMERO 2"
+	leer num2
+	//LA COMPUTADORA ELIJIRA LA OPERACION QUE EL USUARIO QUIERE Y DARA UN RESULTADO
+	Si operacion="+"  Entonces // SI LA OPERACION ES UNA SUMA DARA EL RESULTADO 
+		res=num1+num2 // ESCRIBIR EL RESULTADO DE LA SUMA 
+		Escribir num1,"+",num2,"=",res
+	SiNo
+		Si operacion="-" Entonces // SI LA OPERACION ES UNA RESTA DARA EL RESULTADO 
+			res=num1-num2  // ESCRIBIR EL RESULTADO DE LA RESTA
+			Escribir num1,"-",num2,"=",res
+		SiNo
+			Si operacion="*" Entonces // SI LA OPERACION ES UNA MULTIPLICACION DARA EL RESULTADO 
+				res=num1*num2  // ESCRIBIR EL RESULTADO DE LA MULTIPLICACION 
+			    Escribir num1,"*",num2,"=",res	
+			SiNo
+				Si operacion="/" Entonces // SI LA OPERACION ES UNA DIVISION DARA EL RESULTADO 
+					res=num1/num2  // ESCRIBIR EL RESULTADO DE LA DIVISION 
+					Escribir num1,"/",num2,"=",res
+				SiNo            // SI LA OPERACION DA ERROR AUTOMATICAMENTE DIRA ESTE MENSAJE
+					Escribir "Operacion invalida ingrese operador(+,-,*,/)"
+				Fin Si
+			Fin Si
+		Fin Si
+	Fin Si
+	// FIN DE LA FUNCION 
+FinFuncion
+
+//15. Tabla de multiplicar: Pide al usuario un número y muestra su tabla de multiplicar del 1 al 10.
+// INICIO DE LA FUNCION 
+Funcion algoritmos_secuenciales_ej15_AROCA
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 15"
+	//DEFINIR LOS NOMBRES DE LAS VARIABLES 
+	Definir  tabla Como entero
+	tabla=10 
+	//ESCRIBIMOS LA TABLA DEL 10 ES 
+	Escribir "LA TABLA DEL 10 ES"
+	//AQUI EMPIEZA LA MULTIPLICACION DE LA TABLA DEL 10 DEL 1-10
+	// 10*1=10
+	Escribir ,tabla,"*","1","=" tabla*1
+	// 10*2=20
+	Escribir ,tabla,"*","2","=" tabla*2
+	// 10*3=30
+	Escribir ,tabla,"*","3","=" tabla*3
+	// 10*4=40
+	Escribir ,tabla,"*","4","=" tabla*4
+	// 10*5=50
+	Escribir ,tabla,"*","5","=" tabla*5
+	// 10*6=60
+	Escribir ,tabla,"*","6","=" tabla*6
+	// 10*7=70
+	Escribir ,tabla,"*","7","=" tabla*7
+	// 10*8=80
+	Escribir ,tabla,"*","8","=" tabla*8
+	// 10*9=90
+	Escribir ,tabla,"*","9","=" tabla*9
+	// 10*10=100
+	Escribir ,tabla,"*","10","=" tabla*10
+	// FIN DE LA TABLA DEL 10
+	
+	// EL ALGORITMO SOLO MULTIPLICARA HASTA 10 SIN EMBARGO SI DESEA MULTIPLICAR ALGUN OTRO NUMERO POR 10 ENTONCES USE LO SIGUIENTE 
+	
+	// DEFINIR LOS NOMBRES DE LAS VARIABLES 
+	Definir num1,res Como real
+	num1=0 
+	res=0
+	// PEDIMOS AL USUARIO QUE ESCRIBA EL NUMERO QUE QUIERE MULTIPLICAR POR 10
+	Escribir "ESCRIBA EL NUMERO QUE DESEA MULTIPLICAR POR 10"
+	leer num1
+	// ESCRIBIR "EL RESULTADO DE SU MULTIPLICACION ES"
+	Escribir "EL RESULTADO DE SU MULTIPLICACION ES "
+	res<- num1 * tabla
+	// ESCRIBIR EL RESULTADO DE LA MULTIPLICACION
+	Escribir tabla,"*",num1 ,"=",res 
+	// COMO TAL ESTO TE PERMITIRA MULTIPLICAR CUALQUIER NUMERO QUE DESEE EL USUARIO POR 10 
+	// FIN DE LA FUNCION 
+FinFuncion
+
+//16. Copiar palabra: Escribe un programa que lea dos palabras y concatena en otra variable las dos palabras
+// INICIO DE LA FUNCION 
+FUNCION algoritmos_secuenciales_ej16_AROCA 
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 16"
+	//DEFINIMOS EL NOMBRE DE LAS VARIABLES 
+	Definir palabra1, palabra2, palabranueva Como Caracter
+	palabra1="" 
+	palabra2=""
+	palabranueva="" 
+	//PEDIMOS AL USUARIO QUE INGRESE SU PRIMERA FRASE 
+	Escribir "INGRESE FRASE 1"
+	leer palabra1 
+	//PEDIMOS AL USUARIO QUE INGRESE SU SEGUNDA FRASE 
+	Escribir  "INGRESE PALABRA 2"
+	leer palabra2  
+	// COMIENZA EL PROCESO 
+	palabranueva<- palabra1+ " " +palabra2 
+	// ESCRIBE LA PALABRAS EN UNA SOLA FRASE : "HOLA", "+", "" ,"+", "MUNDO", "=", "HOLA MUNDO"
+	Escribir palabranueva
+	// FIN DE LA FUNCION 
+FinFuncion
+
+//Mayor de tres nUmeros: Solicita tres numeros y determina cual es el mayor de ellos.
+// INICIO DE LA FUNCION 
+Funcion Ejercicios_algoritmos_selectivos_EJ17_AROCA 
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 17"
+	// DEFINIR LOS NOMBRES DE LAS VARIABLES 
+	Definir num1, num2, num3 Como real
+	num1=0
+	num2=0
+	num3=0
+	//PEDIRLE AL USUARIO QUE INGRESE EL PRIMER NUMERO
+	Escribir "ingrese el primer numero"
+	leer num1
+	//PEDIRLE AL USUARIO QUE INGRESE EL SEGUNDO NUMERO
+	Escribir "ingrese el segundo numero"
+	leer num2
+	//PEDIRLE AL USUARIO QUE INGRESE EL TERCER NUMERO
+	Escribir "ingrese el tercer numero"
+	leer num3
+	//ESCRIBIMOS LA PREGUNTA Y QUE LA COMPUTADORA NOS DIGA LA RESOUESTA 
+	Escribir "CUAL DE ELLOS ES EL MAYOR"
+	// SI NUM1 ES MAYOR QUE LOS DEMAS NUMEROS ENTONCES NOS DIRA LA RESPUESTA 
+	SI num1>num2 y num1>num3 Entonces
+		Escribir "EL PRIMER NUMERO ES EL MAYOR"
+		// SI NUM1 NO ES MAYOR QUE NUM2 Y NUM3 ENTTONCES NOS DIRA SI NUM2 O NUM3 ES EL MAYOR
+	SiNo
+		//I NUM2 ES MAYOR QUE LOS DEMAS NUMEROS ENTONCES NOS DIRA LA RESPUESTA 
+		SI num2>num1 y num2>num3 Entonces
+			Escribir "EL SEGUNDO NUMERO ES EL MAYOR"
+			// SI NUM2 NO ES MAYOR QUE NUM1 Y NUM3 ENTTONCES NOS DIRA SI NUM1 O NUM3 ES EL MAYOR
+		SiNo
+			//SI NUM3 ES MAYOR QUE LOS DEMAS NUMEROS ENTONCES NOS DIRA LA RESPUESTA 
+			SI num3>num1 y num3>num2 Entonces
+				Escribir "EL TERCER NUMERO ES EL MAYOR"
+				// SI NUM3 NO ES MAYOR QUE NUM1 Y NUM2 ENTTONCES NOS DIRA SI NUM1 O NUM2 ES EL MAYOR
+			FinSi
+			
+		FinSi
+		
+	FinSi
+	//FIN DE LA FUNCION 
+FinFuncion
+
+//18. Edad mínima para votar: Pregunta la edad del usuario y verifica si es elegible para votar (18 años o mAs)
+// INICIO DE LA FUNCION 
+Funcion Ejercicios_algoritmos_selectivos_EJ18_AROCA
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 18"
+	//DEFINIR EL NOMBRE DE LAS VARIABLES 
+	Definir num1 Como Real
+	Definir letra Como Caracter
+	num1=0
+	letra=""
+	// PREPARAMOS LA BIENVENIDA AL SISTEMA DE VOTO
+	Escribir "BIENVENIDO AL VOTO PARA ELEGIR AL NUEVO PRECIDENTE DE LA UNEMI 2023."
+	// LE PEDIMOS AL USUARIO QUE RESPONDA LA SIGUIENTE PREGUNTA 
+	Escribir "RESPONDA LA SIGUIENTE PREGUNTA"
+	// PREGUNTAMOS AL USUARIO SI ES MAYOR DE EDAD 
+	Escribir "¿USTED ES MAYOR DE EDAD?"
+	leer letra
+	// EL USUARIO PODRIA ESTAR MINTIENDO ASI QUE PARA VERIFICAR LE PEDIMOS QUE INGRESE SU EDAD 
+	Escribir "POR FAVOR INGRESE SU EDAD"
+	Leer num1
+	// SI ES MAYOR DE EDAD ENTONCES LE DAMOS ACCESO A LA PAGINA PARA QUE VOTE 
+	si num1>17 Entonces
+		// ESCRIBIMOS UN MENSAJE DE APROVACION 
+		Escribir "APROBADO USTED, ES MAYOR DE EDAD"
+		// SI EL USUARIO NO ES MAYOR DE EDAD LE DENEGAMOS LA ENTRADA A LA PAGINA DE VOTACION 
+	sino 
+		si num1<18 Entonces
+			// ESCRIBMOS UN MENSAJE DE DENEGACION 
+			Escribir "DENEGADO USTED, ES MENOR DE EDAD"
+		FinSi
+	FinSi
+	// FIN DE LA FUNCION 
+FinFuncion
+
+//19. Calculadora de BMI: Crea un programa que calcule el índice de masa corporal(BMI) a partir del peso y la altura del usuario, y luego indique si está en unacategoría de peso saludable
+// INICIO DE LA FUNCION 
+FUNCION Ejercicios_algoritmos_selectivos_EJ19_AROCA 
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 19"
+	//DEFINIR EL NOMBRE DE LAS VARIABLES 
+	Definir altura, peso,BMI Como real
+	// LE PEDIMOS AL USUARIO QUE INGRESE SU PESO EN KG
+	Escribir "ESCRIBA SU PESO EN KG"
+	Leer peso
+	// LE PEDIMOS AL USUARIO QUE INGRESE SU ESTATURA EN METROS
+	Escribir "ESCRIBA SU ALTURA EN METROS"
+	Leer altura
+	// LA FORMULA QUE USARA PARA CALCULAR EL BMI CON EL PESO Y LA ALTURA 
+	BMI= peso/(altura*altura)
+	// USAMOS ESTOS VALORES PARA DEFINIR LOS NIVELES DE BMI
+	// BAJO PESO= -18.5, PESO NORMAL= +18.5 - 24,9 , PESO ALTO= 25 - 29.9 Y OBESIDAD= *30
+	// SI EL RESULTADO ES MENOS DE 18.5 ENTONCES DIRA QUE TIENE UN PESO BAJO
+	SI BMI<18.5 Entonces
+		Escribir "SU BMI ES ",BMI," USTED TIENE PESO BAJO "
+	SINO 
+		// SI EL RESULTADO DA MAS DE 18.5 HASTA 24.9 ENTONCES DIRA QUE TIENE UN PESO NORMAL
+		SI BMI>=18.5 Y BMI<24.9
+			Escribir "SU BMI ES ",BMI," USTED TIENE UN PESO NORMAL"
+		SINO
+			// SI EL RESULTADO DA MAS DE 25 HASTA 29.9 ENTONCES DIRA QUE TIENE UN PESO ALTO
+			SI BMI>=25 Y BMI<29.9 Entonces
+				Escribir "SU BMI ES ",BMI," USTED TIENE SOBRE PESO"
+			SiNo 
+				// SI EL RESULTADO DA MAS DE 30 ENTONCES DIRA QUE TIENE OBESIDAD 
+				SI BMI>30 Entonces
+					Escribir " SU BMI ES ",BMI," USTED TIENE OBESIDAD" 
+				FINSI
+				
+			FinSi
+		FinSi
+	FinSi
+	// FIN DE LA FUNCION 
+FinFuncion
+
+//20. Número positivo, negativo o cero: Pide al usuario que ingrese un número y muestra si es positivo, negativo o cero.
+// INICIO DE LA FUNCION 
+FUNCION Ejercicios_algoritmos_selectivos_EJ20_AROCA 
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 20"
+	// DEFINIMOS EL NOMBRE DE LA VARIABLE
+	Definir num1 Como real
+	num1=0
+	// PEDIMOS AL USUARIO QUE ESCRIBA SU NUMERO
+	Escribir "ESCRIBA SU NUMERO"
+	Leer num1
+	// SI SU NUMERO ES 0 ENTONCES NOS DIRA QUE ES 0
+	si num1=0 Entonces
+		Escribir "TU NUMERO ES CERO"
+	SiNo
+		// SI SU NUMERO ES POSITIVO NOS LO DIRA 
+		SI num1>=1 Entonces
+			Escribir "TU NUMERO ES POSITIVO"
+		SINO
+			// SI SU NUMERO ES NEGATIVO NOS LO DIRA 
+			SI num1<=-1 Entonces
+				Escribir "TU NUMERO ES NEGATIVO"
+				
+			FinSi
+			
+		FinSi
+	FinSi
+	// FIN DE LA FUNCION 
+FinFuncion
+
+//21. Año bisiesto: Solicita al usuario un año y determina si es un año bisiesto o no.Un año bisiesto es divisible por 4, pero no por 100, a menos que también sea divisible por 400.
+// INICIO DE LA FUNCION 
+Funcion Ejercicios_algoritmos_selectivos_EJ21_AROCA
+	// ESCRIBIMOS EL NUMERO DEL EJERCICIO
+	Escribir "EJERCICIO 21"
+    // DEFINIR EL NOMBRE DE LA VARIABLE 
+	Definir año Como real
+	// PEDIRLE AL USUARIO QUE INGRESE EL AÑO
+	Escribir "ESCRIBA EL AÑO"
+	// LEERA EL AÑO
+	Leer año
+	// SI EL AÑO ES BISIESTO SE SABRA POR QUE ES DIVISIBLE PARA 4 PERO NO PARA 100 A MENOS QUE SEA DIVISIBLE PARA 400
+	// LOS AÑOS BISIESTOS SON %4, 1996 2004 2008....
+	// SI UN AÑO  NO ES BISIESTO SE SABRA POR QUE NO SON %100, 2000 2100 2300......
+	// SI ES BISIESTO PARA %400, 1600 2000 2600.....
+	SI (año % 4 = 0 y año % 100 <> 0) o (año % 400 = 0 )Entonces
+		// SI ES BISIESTO ESCRIBIR
+		Escribir "ES UN AÑO BISIESTO" 
+	SiNo
+		// SI NO ES BISIESTO ESCRIBIR
+		Escribir "NO ES UN AÑO BISIESTO"
+		
+	FinSi
+	// FIN DE LA FUNCION 
+FinFuncion
+
+
+
+Algoritmo TAREA_S1_UNEMI
+	expreciones_matematicas_ej1_AROCA()
+	expreciones_matematicas_ej2_AROCA()
+	expreciones_matematicas_ej3_AROCA()
+	expreciones_matematicas_ej4_AROCA()
+	expreciones_matematicas_ej5_AROCA() 
+	expreciones_matematicas_ej6_AROCA()
+	expreciones_matematicas_ej7_AROCA()
+	expreciones_matematicas_ej8_AROCA()
+	expreciones_matematicas_ej9_AROCA()
+	expreciones_matematicas_ej10_AROCA()
+	algoritmos_secuenciales_ej11_AROCA()
+	algoritmos_secuenciales_ej12_AROCA()
+	algoritmos_secuenciales_ej13_AROCA()
+	algoritmos_secuenciales_ej14_AROCA() 
+	algoritmos_secuenciales_ej15_AROCA()
+    algoritmos_secuenciales_ej16_AROCA()
+	Ejercicios_algoritmos_selectivos_EJ17_AROCA() 
+	Ejercicios_algoritmos_selectivos_EJ18_AROCA()   
+	Ejercicios_algoritmos_selectivos_EJ19_AROCA()
+	Ejercicios_algoritmos_selectivos_EJ20_AROCA() 
+	Ejercicios_algoritmos_selectivos_EJ21_AROCA()
+	
+	
+FinAlgoritmo
